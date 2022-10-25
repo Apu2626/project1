@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="unitedhealth">
+    <listeners>
+        <listener class-name="Listner"></listener>
+    </listeners>
+    <test name="automisssion">
+        <classes>
+            <class name="TestClass"></class>
+            <class name="EbayTest"></class>
+            <class name="IframeTest"></class>
+            <class name="AlertHandleTest"></class>
+            <class name="AlertHandleTest"></class>
+            <class name="DragAndDropTest"></class>
+        </classes>
+    </test></suite>
